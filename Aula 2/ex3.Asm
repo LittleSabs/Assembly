@@ -1,0 +1,17 @@
+//nome ao contrario
+ORG	0
+	JMP	INICIO
+	ORG	10
+	DB	"SABRINA"
+	ORG	30
+INICIO: CLO	
+	MOV	CL, C0
+	MOV	BL,7
+	MOV	DL,16
+PROX:	MOV	AL,[DL]
+	MOV	[CL],AL
+	INC	CL
+	dec	DL
+	DEC	BL
+	JNZ	PROX
+	END
