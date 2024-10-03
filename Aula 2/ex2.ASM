@@ -1,3 +1,4 @@
+	//print a name
 	ORG	0
 	JMP	INICIO
 	ORG	10

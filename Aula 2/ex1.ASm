@@ -1,3 +1,4 @@
+	//print BRASIL
 	ORG	0
 	JMP	INICIO
 	ORG	10
